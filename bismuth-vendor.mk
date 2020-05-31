@@ -19,8 +19,10 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/teracube/bismuth/proprietary/bin/nfcstackp:$(TARGET_COPY_OUT_SYSTEM)/bin/nfcstackp \
+    vendor/teracube/bismuth/proprietary/bin/kpoc_charger:$(TARGET_COPY_OUT_SYSTEM)/bin/kpoc_charger \
     vendor/teracube/bismuth/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
     vendor/teracube/bismuth/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
+    vendor/teracube/bismuth/proprietary/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/kpoc_charger.rc \
     vendor/teracube/bismuth/proprietary/etc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml \
     vendor/teracube/bismuth/proprietary/etc/permissions/com.st.android.nfc_dta_extensions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.st.android.nfc_dta_extensions.xml \
     vendor/teracube/bismuth/proprietary/etc/permissions/com.st.android.nfc_extensions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.st.android.nfc_extensions.xml \
@@ -43,11 +45,13 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/bismuth/proprietary/lib/libmtkshifter.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmtkshifter.so \
     vendor/teracube/bismuth/proprietary/lib/libnfc_st_dta.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libnfc_st_dta.so \
     vendor/teracube/bismuth/proprietary/lib/libnfc_st_dta_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libnfc_st_dta_jni.so \
+    vendor/teracube/bismuth/proprietary/lib/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libshowlogo.so \
     vendor/teracube/bismuth/proprietary/lib/libsignal.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsignal.so \
     vendor/teracube/bismuth/proprietary/lib/libsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsink.so \
     vendor/teracube/bismuth/proprietary/lib/libsource.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsource.so \
     vendor/teracube/bismuth/proprietary/lib/libstnfc-nci.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstnfc-nci.so \
     vendor/teracube/bismuth/proprietary/lib/libstnfc_nci_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libstnfc_nci_jni.so \
+    vendor/teracube/bismuth/proprietary/lib/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsysenv_system.so \
     vendor/teracube/bismuth/proprietary/lib/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_cap.so \
     vendor/teracube/bismuth/proprietary/lib/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvcodec_capenc.so \
     vendor/teracube/bismuth/proprietary/lib/libvt_avsync.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libvt_avsync.so \
@@ -64,6 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/bismuth/proprietary/lib64/libnfc_st_dta_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libnfc_st_dta_jni.so \
     vendor/teracube/bismuth/proprietary/lib64/libstnfc-nci.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstnfc-nci.so \
     vendor/teracube/bismuth/proprietary/lib64/libstnfc_nci_jni.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libstnfc_nci_jni.so \
+    vendor/teracube/bismuth/proprietary/lib64/libsysenv_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsysenv_system.so \
     vendor/teracube/bismuth/proprietary/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_cap.so \
     vendor/teracube/bismuth/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
     vendor/teracube/bismuth/proprietary/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so
