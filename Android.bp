@@ -65,6 +65,12 @@ dex_import {
 }
 
 dex_import {
+	name: "mediatek-ims-base",
+	owner: "teracube",
+	jars: ["proprietary/framework/mediatek-ims-base.jar"],
+}
+
+dex_import {
 	name: "mediatek-ims-common",
 	owner: "teracube",
 	jars: ["proprietary/framework/mediatek-ims-common.jar"],
