@@ -40,6 +40,17 @@ android_app_import {
 	privileged: true,
 }
 
+android_app_import {
+	name: "MTKThermalManager",
+	owner: "teracube",
+	apk: "proprietary/vendor/app/MTKThermalManager/MTKThermalManager.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	vendor: true,
+}
+
 dex_import {
 	name: "com.st.android.nfc_dta_extensions",
 	owner: "teracube",
