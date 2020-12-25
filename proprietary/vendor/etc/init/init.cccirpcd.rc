@@ -1,0 +1,12 @@
+#
+
+service vendor.ccci_rpcd /vendor/bin/ccci_rpcd 0
+    user radio
+    group radio system
+    class core
+    oneshot
+    disabled
+
+on property:vold.decrypt=trigger_restart_framework
+    start vendor.ccci_rpcd
+
