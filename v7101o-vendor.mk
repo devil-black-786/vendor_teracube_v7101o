@@ -84,7 +84,6 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.1-service-gpunn:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.1-service-gpunn \
     vendor/teracube/v7101o/proprietary/vendor/bin/hw/android.hardware.nfc@1.1-service-st:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.1-service-st \
     vendor/teracube/v7101o/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service-mediatek \
-    vendor/teracube/v7101o/proprietary/vendor/bin/hw/android.hardware.thermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@1.0-service \
     vendor/teracube/v7101o/proprietary/vendor/bin/hw/android.hardware.usb@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.1-service-mediatek \
     vendor/teracube/v7101o/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek \
     vendor/teracube/v7101o/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
@@ -284,7 +283,6 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.1-service-gpunn.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.1-service-gpunn.rc \
     vendor/teracube/v7101o/proprietary/vendor/etc/init/android.hardware.nfc@1.1-service.st.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.1-service.st.rc \
     vendor/teracube/v7101o/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-mediatek.rc \
-    vendor/teracube/v7101o/proprietary/vendor/etc/init/android.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@1.0-service.rc \
     vendor/teracube/v7101o/proprietary/vendor/etc/init/android.hardware.usb@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.1-service-mediatek.rc \
     vendor/teracube/v7101o/proprietary/vendor/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.wifi@1.0-service-lazy-mediatek.rc \
     vendor/teracube/v7101o/proprietary/vendor/etc/init/atci_service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/atci_service.rc \
@@ -557,12 +555,12 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/lib/hw/android.hardware.audio@5.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@5.0-impl-mediatek.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
+    vendor/teracube/v7101o/proprietary/vendor/lib/hw/android.hardware.graphics.composer@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.composer@2.1-impl.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gatekeeper@1.0-impl.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/hw/android.hardware.light@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.light@2.0-impl-mediatek.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/hw/android.hardware.power@1.3-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.power@1.3-impl-mediatek.so \
-    vendor/teracube/v7101o/proprietary/vendor/lib/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.thermal@1.0-impl.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/hw/audio.bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth.default.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.default.so \
     vendor/teracube/v7101o/proprietary/vendor/lib/hw/audio.primary.mt6771.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6771.so \
@@ -972,6 +970,7 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so \
+    vendor/teracube/v7101o/proprietary/vendor/lib64/hw/android.hardware.graphics.composer@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.composer@2.1-impl.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/android.hardware.gnss@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.0-impl-mediatek.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so \
@@ -979,7 +978,6 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/android.hardware.light@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.light@2.0-impl-mediatek.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/android.hardware.power@1.3-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.power@1.3-impl-mediatek.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/android.hardware.soundtrigger@2.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.soundtrigger@2.2-impl.so \
-    vendor/teracube/v7101o/proprietary/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@1.0-impl.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/audio.bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth.default.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/hw/audio.r_submix.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.default.so \
