@@ -30,17 +30,6 @@ android_app_import {
 	privileged: true,
 }
 
-android_app_import {
-	name: "SensorHub",
-	owner: "teracube",
-	apk: "proprietary/vendor/app/SensorHub/SensorHub.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	soc_specific: true,
-}
-
 dex_import {
 	name: "mediatek-common",
 	owner: "teracube",

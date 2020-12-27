@@ -1212,7 +1212,6 @@ PRODUCT_COPY_FILES += \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libdirect-coredump.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdirect-coredump.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpframework.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffecthal.base.so \
-    vendor/teracube/v7101o/proprietary/vendor/lib64/libem_sensor_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libem_sensor_jni.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libfeature.face.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.face.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libfeature.stereo.provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.stereo.provider.so \
     vendor/teracube/v7101o/proprietary/vendor/lib64/libfeature.vsdof.hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.vsdof.hal.so \
@@ -1440,7 +1439,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     ImsService \
-    SensorHub \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
